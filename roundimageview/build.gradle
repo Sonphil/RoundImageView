@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 28
@@ -26,10 +27,21 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation 'androidx.appcompat:appcompat:1.0.2'
-    testImplementation 'junit:junit:4.12'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
+
 repositories {
     maven { url 'http://dl.bintray.com/kotlin/kotlin-eap' }
     mavenCentral()
+}
+
+publish {
+    bintrayUser = 'Sonphil'
+    repoName = 'RoundImageView'
+    userOrg = 'sonphil'
+    groupId = 'com.sonphil.roundimageview'
+    artifactId = 'roundimageview'
+    publishVersion = '1.0.0'
+    desc = 'A very simple library that provides round image views'
+    website = 'https://github.com/Sonphil/RoundImageView'
 }
