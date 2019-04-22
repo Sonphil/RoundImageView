@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/RoundImageView.iml" filepath="$PROJECT_DIR$/.idea/RoundImageView.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sample.iml" filepath="$PROJECT_DIR$/Sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/roundimageview/roundimageview.iml" filepath="$PROJECT_DIR$/roundimageview/roundimageview.iml" />
       <module fileurl="file://$PROJECT_DIR$/roundimageview/roundimageview.iml" filepath="$PROJECT_DIR$/roundimageview/roundimageview.iml" />
     </modules>
   </component>

@@ -2,10 +2,10 @@ package com.sonphil.roundimageview
 
 import android.content.Context
 import android.graphics.Outline
-import android.support.v7.widget.AppCompatImageView
 import android.util.AttributeSet
 import android.view.View
 import android.view.ViewOutlineProvider
+import androidx.appcompat.widget.AppCompatImageView
 
 /**
  * Created by Sonphil on 13-10-18.
